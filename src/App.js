@@ -1,10 +1,21 @@
 import './App.css';
+import NavigationBar from './Components/NavigationBar';
+import Hero from './Components/Hero';
+import OurServices from './Components/OurServices';
 
 function App() {
   return (
-   <div>
-    <h1>testing</h1>
-   </div>
+    <>
+      <NavigationBar />
+      <div >
+        <Hero />
+      </div>
+      <div>
+        <OurServices/>
+      </div>
+    </>
+   
+
   );
 }
 
