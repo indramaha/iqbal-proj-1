@@ -1,0 +1,136 @@
+.kabupaten-section {
+  width: 100% !important;
+}
+
+/*
+.kabupaten-row-parent {
+  padding: 0px !important;
+}
+*/
+
+/*
+.kabupaten-col-parent-1 {
+  padding: 0px !important;
+}
+*/
+
+.image-col-1 {
+  width: 100%;
+  height: 766px !important;
+}
+
+.image-col-21 {
+  width: 100%;
+  height: 370px !important;
+}
+
+.kabupaten-col-2-row-1 {
+  margin-bottom: 1.5rem;
+}
+
+.kabupaten-card-text {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kabupaten-card-text-col-1-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.kabupaten-card-text-col-1-row-col-1 {
+  margin-bottom: 1.5rem;
+}
+
+.kabupaten-card-text-col-1-row-col-1-h1 {
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 60px;
+}
+
+/*
+.kabupaten-col-parent-2 {
+  padding: 0px !important;
+}
+*/
+
+/*
+.kabupaten-col-parent-2-card {
+  padding: 0px !important;
+}
+*/
+
+.kabupaten-card-text-col-2-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.kabupaten-card-text-col-2-row-col {
+  margin-bottom: 1.5rem;
+}
+
+.kabupaten-card-text-col-2-row-col-h1 {
+  color: white;
+  font-weight: 500;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .image-col-1 {
+    width: 100%;
+    height: 576px !important;
+  }
+
+  .image-col-21 {
+    width: 100%;
+    height: 275px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .image-col-1 {
+    width: 100%;
+    height: 502px;
+  }
+
+  .image-col-21 {
+    width: 100%;
+    height: 250px !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .kabupaten-section {
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-col-1 {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .image-col-1 {
+    width: 100%;
+    height: 700px;
+  }
+
+  .image-col-21 {
+    width: 100%;
+    height: fit-content !important;
+  }
+}

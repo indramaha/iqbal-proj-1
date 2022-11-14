@@ -6,7 +6,7 @@ function IndividualIntervalsExample() {
     <Carousel className='carosel'>
       <Carousel.Item interval={4000}>
         <img
-          className="d-block w-100"
+          className="d-block w-100 hero-image"
           src="https://images.unsplash.com/photo-1558005530-a7958896ec60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
           alt="Ubud"
         />
@@ -17,7 +17,7 @@ function IndividualIntervalsExample() {
       </Carousel.Item>
       <Carousel.Item interval={4000}>
         <img
-          className="d-block w-100"
+          className="d-block w-100 hero-image"
           src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
           alt="TABANAN"
         />
@@ -28,7 +28,7 @@ function IndividualIntervalsExample() {
       </Carousel.Item>
       <Carousel.Item interval={4000}>
         <img
-          className="d-block w-100"
+          className="d-block w-100 hero-image"
           src="https://images.unsplash.com/photo-1546484458-6904289cd4f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
           alt="CANGGU"
         />
