@@ -3,6 +3,14 @@
   width: 100%;
 }
 
+.hero-carousel-caption-h3 {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.hero-carousel-caption-p {
+  text-shadow: 2px 2px 4px #000000;
+}
+
 @media only screen and (max-width: 1280px) {
   .hero-image {
     height: 630px;
@@ -13,7 +21,7 @@
 
 @media only screen and (max-width: 430px) {
   .hero-image {
-    height: 650px;
+    height: 100%;
     width: auto;
     display: block;
   }
@@ -21,7 +29,7 @@
 
 @media only screen and (max-width: 390px) {
   .hero-image {
-    height: 550px;
+    height: 100%;
     width: auto;
     display: block;
   }
@@ -29,7 +37,7 @@
 
 @media only screen and (max-width: 320px) {
   .hero-image {
-    height: 350px;
+    height: 100%;
     width: auto;
     display: block;
   }

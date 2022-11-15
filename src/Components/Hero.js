@@ -11,8 +11,8 @@ function IndividualIntervalsExample() {
           alt="Ubud"
         />
         <Carousel.Caption>
-          <h3>UBUD</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 className='hero-carousel-caption-h3'>UBUD</h3>
+          <p className='hero-carousel-caption-p'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={4000}>
@@ -22,8 +22,8 @@ function IndividualIntervalsExample() {
           alt="TABANAN"
         />
         <Carousel.Caption>
-          <h3>TABANAN</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className='hero-carousel-caption-h3'>TABANAN</h3>
+          <p className='hero-carousel-caption-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={4000}>
@@ -33,8 +33,8 @@ function IndividualIntervalsExample() {
           alt="CANGGU"
         />
         <Carousel.Caption>
-          <h3>CANGGU</h3>
-          <p>
+          <h3 className='hero-carousel-caption-h3'>CANGGU</h3>
+          <p className='hero-carousel-caption-p'>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
         </Carousel.Caption>

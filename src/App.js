@@ -8,11 +8,13 @@ function App() {
   return (
     <>
       <NavigationBar />
-      <div >
-        <Hero />
-      </div>
-      <div className='app-ourservices-bg'>
-        <OurServices/>
+      <div className='app-hero-ourservices'>
+        <div className='app-hero'>
+          <Hero />
+        </div>
+        <div className='app-ourservices'>
+          <OurServices/>
+        </div>
       </div>
       <div>
         <Kabupaten/>
