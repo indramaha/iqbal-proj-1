@@ -18,7 +18,11 @@ function Kabupaten(){
                             <div className="kabupaten-card-text">
                                 <Row className="kabupaten-card-text-col-1-row">
                                     <Col className="kabupaten-card-text-col-1-row-col-1">
-                                        <h1 className="kabupaten-card-text-col-1-row-col-1-h1">JEMBRANA</h1>
+                                        <div>
+                                            <h1 className="kabupaten-card-text-col-1-row-col-1-h1">JEMBRANA</h1>
+                                            <p className="kabupaten-card-text-col-1-row-col-1-p"> Starting from</p>
+                                            <h2 className="kabupaten-card-text-col-1-row-col-1-h2">IDR. 100.000</h2>
+                                        </div>
                                     </Col>
                                     <Col>
                                         <Button variant="warning" size="md"><b className="kabupaten-bold-col-1">Book Now</b></Button>{' '}
@@ -37,7 +41,11 @@ function Kabupaten(){
                                     <div className="kabupaten-card-text">
                                         <Row className="kabupaten-card-text-col-2-row">
                                             <Col className="kabupaten-card-text-col-2-row-col">
-                                                <h1 className="kabupaten-card-text-col-2-row-col-h1">TABANAN</h1>
+                                                <div>
+                                                    <h1 className="kabupaten-card-text-col-2-row-col-h1">TABANAN</h1>
+                                                    <p className="kabupaten-card-text-col-2-row-col-p"> Starting from</p>
+                                                    <h2 className="kabupaten-card-text-col-2-row-col-h2">IDR. 100.000</h2>
+                                                </div>
                                             </Col>
                                             <Col>
                                                 <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
@@ -54,7 +62,11 @@ function Kabupaten(){
                                     <div className="kabupaten-card-text">
                                         <Row className="kabupaten-card-text-col-2-row">
                                             <Col className="kabupaten-card-text-col-2-row-col">
-                                                <h1 className="kabupaten-card-text-col-2-row-col-h1">BADUNG</h1>
+                                                <div>
+                                                    <h1 className="kabupaten-card-text-col-2-row-col-h1">BADUNG</h1>
+                                                    <p className="kabupaten-card-text-col-2-row-col-p"> Starting from</p>
+                                                    <h2 className="kabupaten-card-text-col-2-row-col-h2">IDR. 100.000</h2>
+                                                </div>
                                             </Col>
                                             <Col>
                                                 <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
@@ -71,7 +83,12 @@ function Kabupaten(){
                                     <div className="kabupaten-card-text">
                                         <Row className="kabupaten-card-text-col-2-row">
                                             <Col className="kabupaten-card-text-col-2-row-col">
-                                                <h1 className="kabupaten-card-text-col-2-row-col-h1">GIANYAR</h1>
+                                                <div>
+                                                    <h1 className="kabupaten-card-text-col-2-row-col-h1">GIANYAR</h1>
+                                                    <p className="kabupaten-card-text-col-2-row-col-p"> Starting from</p>
+                                                    <h2 className="kabupaten-card-text-col-2-row-col-h2">IDR. 100.000</h2>
+                                                </div>
+                                                
                                             </Col>
                                             <Col>
                                                 <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
@@ -88,7 +105,12 @@ function Kabupaten(){
                                     <div className="kabupaten-card-text">
                                         <Row className="kabupaten-card-text-col-2-row">
                                             <Col className="kabupaten-card-text-col-2-row-col">
-                                                <h1 className="kabupaten-card-text-col-2-row-col-h1">KLUNGKUNG</h1>
+                                                <div>
+                                                    <h1 className="kabupaten-card-text-col-2-row-col-h1">KLUNGKUNG</h1>
+                                                    <p className="kabupaten-card-text-col-2-row-col-p"> Starting from</p>
+                                                    <h2 className="kabupaten-card-text-col-2-row-col-h2">IDR. 100.000</h2>
+                                                </div>
+                                                
                                             </Col>
                                             <Col>
                                                 <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
@@ -107,7 +129,12 @@ function Kabupaten(){
                                     <div className="kabupaten-card-text">
                                         <Row className="kabupaten-card-text-col-2-row">
                                             <Col className="kabupaten-card-text-col-2-row-col">
-                                                <h1 className="kabupaten-card-text-col-2-row-col-h1">BANGLI</h1>
+                                                <div>
+                                                    <h1 className="kabupaten-card-text-col-2-row-col-h1">BANGLI</h1>
+                                                    <p className="kabupaten-card-text-col-2-row-col-p"> Starting from</p>
+                                                    <h2 className="kabupaten-card-text-col-2-row-col-h2">IDR. 100.000</h2>
+                                                </div>
+                                                
                                             </Col>
                                             <Col>
                                                 <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
@@ -124,7 +151,12 @@ function Kabupaten(){
                                     <div className="kabupaten-card-text">
                                         <Row className="kabupaten-card-text-col-2-row">
                                             <Col className="kabupaten-card-text-col-2-row-col">
-                                                <h1 className="kabupaten-card-text-col-2-row-col-h1">KARANGASEM</h1>
+                                                <div>
+                                                    <h1 className="kabupaten-card-text-col-2-row-col-h1">KARANGASEM</h1>
+                                                    <p className="kabupaten-card-text-col-2-row-col-p"> Starting from</p>
+                                                    <h2 className="kabupaten-card-text-col-2-row-col-h2">IDR. 100.000</h2>
+                                                </div>
+                                                
                                             </Col>
                                             <Col>
                                                 <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
@@ -141,7 +173,12 @@ function Kabupaten(){
                                     <div className="kabupaten-card-text">
                                         <Row className="kabupaten-card-text-col-2-row">
                                             <Col className="kabupaten-card-text-col-2-row-col">
-                                                <h1 className="kabupaten-card-text-col-2-row-col-h1">SINGARAJA</h1>
+                                                <div>
+                                                    <h1 className="kabupaten-card-text-col-2-row-col-h1">SINGARAJA</h1>
+                                                    <p className="kabupaten-card-text-col-2-row-col-p"> Starting from</p>
+                                                    <h2 className="kabupaten-card-text-col-2-row-col-h2">IDR. 100.000</h2>
+                                                </div>
+                                                
                                             </Col>
                                             <Col>
                                                 <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
@@ -158,7 +195,12 @@ function Kabupaten(){
                                     <div className="kabupaten-card-text">
                                         <Row className="kabupaten-card-text-col-2-row">
                                             <Col className="kabupaten-card-text-col-2-row-col">
-                                                <h1 className="kabupaten-card-text-col-2-row-col-h1">DENPASAR</h1>
+                                                <div>
+                                                    <h1 className="kabupaten-card-text-col-2-row-col-h1">DENPASAR</h1>
+                                                    <p className="kabupaten-card-text-col-2-row-col-p"> Starting from</p>
+                                                    <h2 className="kabupaten-card-text-col-2-row-col-h2">IDR. 100.000</h2>
+                                                </div>
+                                                
                                             </Col>
                                             <Col>
                                                 <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}

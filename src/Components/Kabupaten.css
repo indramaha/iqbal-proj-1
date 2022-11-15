@@ -83,6 +83,34 @@
   font-size: 60px;
 }
 
+.kabupaten-card-text-col-1-row-col-1-p {
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.kabupaten-card-text-col-1-row-col-1-h2 {
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 30px;
+}
+
+.kabupaten-card-text-col-2-row-col-p {
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.kabupaten-card-text-col-2-row-col-h2 {
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 25px;
+}
+
 /*
 .kabupaten-col-parent-2 {
   padding: 0px !important;
