@@ -24,46 +24,80 @@ function OurServices(){
                                 </p>
                             </Col>
                             <Col xl={10}>
-                                <div className="ourservices-check">
-                                    <div className="ourservices-check-bg">
-                                        <FiCheck size={16} className="ourservices-check-icon"/>
+                                <Row>
+                                    <div className="ourservices-check">
+                                        <Col xs={1}>
+                                            <div className="ourservices-check-bg">
+                                                <FiCheck size={16} className="ourservices-check-icon"/>
+                                            </div>
+                                        </Col>
+                                        <Col>
+                                            <div className="ourservices-check-text">
+                                                <p className="ourservices-check-text-p">Sewa Mobil Dengan Supir atau Motor di Bali 12 Jam</p>
+                                            </div>
+                                        </Col>
                                     </div>
-                                    <div className="ourservices-check-text">
-                                        <p className="ourservices-check-text-p">Sewa Mobil Dengan Supir atau Motor di Bali 12 Jam</p>
+                                </Row>
+                                <Row>
+                                    <div className="ourservices-check">
+                                        <Col xs={1}>
+                                            <div className="ourservices-check-bg">
+                                                <FiCheck size={16} className="ourservices-check-icon"/>
+                                            </div>
+                                        </Col>
+                                        <Col>
+                                            <div className="ourservices-check-text">
+                                                <p className="ourservices-check-text-p">Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
+                                            </div>
+                                        </Col>
                                     </div>
-                                </div>
-                                <div className="ourservices-check">
-                                    <div className="ourservices-check-bg">
-                                        <FiCheck size={16} className="ourservices-check-icon"/>
+                                </Row>
+                                <Row>
+                                    <div className="ourservices-check">
+                                        <Col xs={1}>
+                                            <div className="ourservices-check-bg">
+                                                <FiCheck size={16} className="ourservices-check-icon"/>
+                                            </div>
+                                        </Col>
+                                        <Col>
+                                            <div className="ourservices-check-text">
+                                                <p className="ourservices-check-text-p">Sewa Mobil atau Motor Jangka Panjang Bulanan</p>
+                                            </div>
+                                        </Col>
+                                        
                                     </div>
-                                    <div className="ourservices-check-text">
-                                        <p className="ourservices-check-text-p">Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
+                                </Row>
+                                <Row>
+                                    <div className="ourservices-check">
+                                        <Col xs={1}>
+                                            <div className="ourservices-check-bg">
+                                                <FiCheck size={16} className="ourservices-check-icon"/>
+                                            </div>
+                                        </Col>
+                                        <Col>
+                                            <div className="ourservices-check-text">
+                                                <p className="ourservices-check-text-p">Gratis Antar - Jemput Mobil di Bandara</p>
+                                            </div>
+                                        </Col>
+                                        
                                     </div>
-                                </div>
-                                <div className="ourservices-check">
-                                    <div className="ourservices-check-bg">
-                                        <FiCheck size={16} className="ourservices-check-icon"/>
+                                </Row>
+                                <Row>
+                                    <div className="ourservices-check">
+                                        <Col xs={1}>
+                                            <div className="ourservices-check-bg">
+                                                <FiCheck size={16} className="ourservices-check-icon"/>
+                                            </div>
+                                        </Col>
+                                        <Col>
+                                            <div className="ourservices-check-text">
+                                                <p className="ourservices-check-text-p">Layanan Airport Transfer / Drop In Out</p>
+                                            </div>
+                                        </Col>
+                                        
                                     </div>
-                                    <div className="ourservices-check-text">
-                                        <p className="ourservices-check-text-p">Sewa Mobil atau Motor Jangka Panjang Bulanan</p>
-                                    </div>
-                                </div>
-                                <div className="ourservices-check">
-                                    <div className="ourservices-check-bg">
-                                        <FiCheck size={16} className="ourservices-check-icon"/>
-                                    </div>
-                                    <div className="ourservices-check-text">
-                                        <p className="ourservices-check-text-p">Gratis Antar - Jemput Mobil di Bandara</p>
-                                    </div>
-                                </div>
-                                <div className="ourservices-check">
-                                    <div className="ourservices-check-bg">
-                                        <FiCheck size={16} className="ourservices-check-icon"/>
-                                    </div>
-                                    <div className="ourservices-check-text">
-                                        <p className="ourservices-check-text-p">Layanan Airport Transfer / Drop In Out</p>
-                                    </div>
-                                </div>
+                                </Row>
+                                
                             </Col>
                         </Row>
                     </Col>
