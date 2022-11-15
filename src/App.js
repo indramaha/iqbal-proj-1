@@ -11,7 +11,7 @@ function App() {
       <div >
         <Hero />
       </div>
-      <div>
+      <div className='app-ourservices-bg'>
         <OurServices/>
       </div>
       <div>

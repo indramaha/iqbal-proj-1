@@ -1,5 +1,29 @@
 .kabupaten-section {
-  width: 100% !important;
+  max-width: 1320px !important;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.kabupaten-section-title {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.kabupaten-section-title-h1 {
+  font-size: 40px;
+  color: #15264c;
+  text-transform: uppercase;
+}
+
+.kabupaten-section-discount {
+  margin-bottom: 1.5rem;
+}
+
+.kabupaten-section-discount-p {
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 /*
@@ -16,12 +40,16 @@
 
 .image-col-1 {
   width: 100%;
-  height: 766px !important;
+  height: 640px !important;
 }
 
 .image-col-21 {
   width: 100%;
-  height: 370px !important;
+  height: 320px !important;
+}
+
+.kabupaten-col-parent-1 {
+  margin-bottom: 1.5rem;
 }
 
 .kabupaten-col-2-row-1 {
@@ -67,6 +95,14 @@
 }
 */
 
+.kabupaten-card-1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.kabupaten-card-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .kabupaten-card-text-col-2-row {
   display: flex;
   flex-direction: column;
@@ -87,6 +123,14 @@
 }
 
 @media only screen and (max-width: 1440px) {
+  .kabupaten-section {
+    max-width: 1100px !important;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .image-col-1 {
     width: 100%;
     height: 576px !important;
@@ -98,7 +142,26 @@
   }
 }
 
+/* macbook air */
+@media only screen and (max-width: 1280px) {
+  .kabupaten-section {
+    max-width: 1024px !important;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
+  .kabupaten-section {
+    max-width: 900px !important;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .image-col-1 {
     width: 100%;
     height: 502px;
@@ -108,11 +171,33 @@
     width: 100%;
     height: 250px !important;
   }
+
+  .kabupaten-card-text-col-1-row-col-1-h1 {
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+  }
+
+  .kabupaten-card-text-col-2-row-col-h1 {
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 30px;
+  }
+
+  .kabupaten-bold-col-1 {
+    font-weight: 500;
+  }
+
+  .kabupaten-bold-col-2 {
+    font-weight: 400;
+  }
 }
 
 @media only screen and (max-width: 991px) {
   .kabupaten-section {
-    max-width: 720px;
+    max-width: 720px !important;
     margin-right: auto;
     margin-left: auto;
   }
@@ -121,16 +206,81 @@
     width: 400px;
     height: 400px;
   }
-}
 
-@media only screen and (max-width: 768px) {
-  .image-col-1 {
-    width: 100%;
-    height: 700px;
+  .kabupaten-col-2-row-1 {
+    margin-bottom: 0px;
   }
 
   .image-col-21 {
-    width: 100%;
-    height: fit-content !important;
+    width: 400px;
+    height: 400px !important;
+  }
+
+  .kabupaten-col-parent-2-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .kabupaten-card-text-col-2-row-col-h1 {
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+  }
+}
+
+/*
+@media only screen and (max-width: 884px){
+  .kabupaten-section {
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+*/
+
+@media only screen and (max-width: 768px) {
+  .image-col-1 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .image-col-21 {
+    width: 400px;
+    height: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .kabupaten-section {
+    max-width: 380px !important;
+  }
+
+  .image-col-1 {
+    /*width: 400px;*/
+    height: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .kabupaten-section {
+    max-width: 340px !important;
+  }
+
+  .image-col-1 {
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  .kabupaten-card-text-col-1-row-col-1-h1 {
+    font-size: 35px;
+  }
+
+  .kabupaten-card-text-col-2-row-col-h1 {
+    font-size: 35px;
+  }
+
+  .image-col-21 {
+    width: 300px;
+    height: 300px !important;
   }
 }
