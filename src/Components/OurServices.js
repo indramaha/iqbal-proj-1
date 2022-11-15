@@ -14,7 +14,7 @@ function OurServices(){
                     </Col>
                     <Col xl={6} lg={5} md={9} xs={11} className="ourservices-col-desc">
                         <Row>
-                            <Col xl={10}>
+                            <Col xl={10} className="ourservices-desc-col-title">
                                 <h4 className="ourservices-desc-h4">Best Tour and Travel Services in Bali!</h4>
                             </Col>
                             <Col xl={10}>
@@ -29,7 +29,7 @@ function OurServices(){
                                         <FiCheck size={16} className="ourservices-check-icon"/>
                                     </div>
                                     <div className="ourservices-check-text">
-                                        <p>Sewa Mobil Dengan Supir atau Motor di Bali 12 Jam</p>
+                                        <p className="ourservices-check-text-p">Sewa Mobil Dengan Supir atau Motor di Bali 12 Jam</p>
                                     </div>
                                 </div>
                                 <div className="ourservices-check">
@@ -37,7 +37,7 @@ function OurServices(){
                                         <FiCheck size={16} className="ourservices-check-icon"/>
                                     </div>
                                     <div className="ourservices-check-text">
-                                        <p>Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
+                                        <p className="ourservices-check-text-p">Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
                                     </div>
                                 </div>
                                 <div className="ourservices-check">
@@ -45,7 +45,7 @@ function OurServices(){
                                         <FiCheck size={16} className="ourservices-check-icon"/>
                                     </div>
                                     <div className="ourservices-check-text">
-                                        <p>Sewa Mobil atau Motor Jangka Panjang Bulanan</p>
+                                        <p className="ourservices-check-text-p">Sewa Mobil atau Motor Jangka Panjang Bulanan</p>
                                     </div>
                                 </div>
                                 <div className="ourservices-check">
@@ -53,7 +53,7 @@ function OurServices(){
                                         <FiCheck size={16} className="ourservices-check-icon"/>
                                     </div>
                                     <div className="ourservices-check-text">
-                                        <p>Gratis Antar - Jemput Mobil di Bandara</p>
+                                        <p className="ourservices-check-text-p">Gratis Antar - Jemput Mobil di Bandara</p>
                                     </div>
                                 </div>
                                 <div className="ourservices-check">
@@ -61,7 +61,7 @@ function OurServices(){
                                         <FiCheck size={16} className="ourservices-check-icon"/>
                                     </div>
                                     <div className="ourservices-check-text">
-                                        <p>Layanan Airport Transfer / Drop In Out</p>
+                                        <p className="ourservices-check-text-p">Layanan Airport Transfer / Drop In Out</p>
                                     </div>
                                 </div>
                             </Col>
