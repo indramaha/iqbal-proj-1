@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom';
 import "./NavigationBar.css"
 
 function NavigationBar() {
@@ -11,12 +12,14 @@ function NavigationBar() {
       {['md'].map((expand) => (
         <Navbar sticky='top' key={expand} expand={expand} className="all-navbar" variant='dark'>
           <Container>
-            <Navbar.Brand href="#">
-              <Col>
-                <h1>Guide ME</h1>
-                <p>Makes your trip easier</p>
-              </Col>
-            </Navbar.Brand>
+            <Link to={'/'}>
+              <Navbar.Brand>
+                <Col>
+                  <h1>Guide ME</h1>
+                  <p>Makes your trip easier</p>
+                </Col>
+              </Navbar.Brand>
+            </Link>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
             className='ofcan'

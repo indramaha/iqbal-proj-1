@@ -1,4 +1,5 @@
 import {Row, Col, Card, Button} from "react-bootstrap"
+import { Link } from "react-router-dom";
 import "./Kabupaten.css"
 
 function Kabupaten(){
@@ -25,7 +26,9 @@ function Kabupaten(){
                                         </div>
                                     </Col>
                                     <Col>
-                                        <Button variant="warning" size="md"><b className="kabupaten-bold-col-1">Book Now</b></Button>{' '}
+                                        <Link to={'/jembrana'}>
+                                            <Button variant="warning" size="md"><b className="kabupaten-bold-col-1">Book Now</b></Button>{' '}
+                                        </Link>\
                                     </Col>
                                 </Row>
                             </div>
@@ -48,7 +51,9 @@ function Kabupaten(){
                                                 </div>
                                             </Col>
                                             <Col>
-                                                <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                <Link to={'/tabanan'}>
+                                                    <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                </Link>
                                             </Col>
                                         </Row>
                                     </div>
@@ -69,7 +74,9 @@ function Kabupaten(){
                                                 </div>
                                             </Col>
                                             <Col>
-                                                <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                <Link to={'/badung'}>
+                                                    <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                </Link>
                                             </Col>
                                         </Row>
                                     </div>
@@ -91,7 +98,9 @@ function Kabupaten(){
                                                 
                                             </Col>
                                             <Col>
-                                                <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                <Link to={'/gianyar'}>
+                                                    <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                </Link>
                                             </Col>
                                         </Row>
                                     </div>
@@ -113,7 +122,9 @@ function Kabupaten(){
                                                 
                                             </Col>
                                             <Col>
-                                                <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                <Link to={'/klungkung'}>
+                                                    <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                </Link>
                                             </Col>
                                         </Row>
                                     </div>
@@ -137,7 +148,9 @@ function Kabupaten(){
                                                 
                                             </Col>
                                             <Col>
-                                                <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                <Link to={'/bangli'}>
+                                                    <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                </Link>
                                             </Col>
                                         </Row>
                                     </div>
@@ -159,7 +172,9 @@ function Kabupaten(){
                                                 
                                             </Col>
                                             <Col>
-                                                <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                <Link to={'/karangasem'}>
+                                                    <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                </Link>
                                             </Col>
                                         </Row>
                                     </div>
@@ -181,7 +196,9 @@ function Kabupaten(){
                                                 
                                             </Col>
                                             <Col>
-                                                <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                <Link to={'/singaraja'}>
+                                                    <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                </Link>
                                             </Col>
                                         </Row>
                                     </div>
@@ -203,7 +220,9 @@ function Kabupaten(){
                                                 
                                             </Col>
                                             <Col>
-                                                <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                <Link to={'/denpasar'}>
+                                                    <Button variant="warning" size="md"><b className="kabupaten-bold-col-2">Book Now</b></Button>{' '}
+                                                </Link>
                                             </Col>
                                         </Row>
                                     </div>
