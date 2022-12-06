@@ -28,7 +28,7 @@ function Kabupaten(){
                                     <Col>
                                         <Link to={'/jembrana'}>
                                             <Button variant="warning" size="md"><b className="kabupaten-bold-col-1">Book Now</b></Button>{' '}
-                                        </Link>\
+                                        </Link>
                                     </Col>
                                 </Row>
                             </div>

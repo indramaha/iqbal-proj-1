@@ -3,6 +3,22 @@
   /*padding: 17px !important;*/
 }
 
+.navbar-logo-bg {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  -ms-border-radius: 150px;
+  -o-border-radius: 150px;
+}
+
+.navbar-logo-img {
+  width: 150px;
+}
+
 .ofcan {
   width: 50% !important;
 }

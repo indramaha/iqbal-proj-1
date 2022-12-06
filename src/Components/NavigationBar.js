@@ -4,22 +4,24 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
+import Logo from '../Assets/GUIDE ME-01.png'
 import "./NavigationBar.css"
 
-function NavigationBar() {
+function NavigationBar(props) {
   return (
     <>
       {['md'].map((expand) => (
         <Navbar sticky='top' key={expand} expand={expand} className="all-navbar" variant='dark'>
           <Container>
-            <Link to={'/'}>
-              <Navbar.Brand>
-                <Col>
-                  <h1>Guide ME</h1>
-                  <p>Makes your trip easier</p>
-                </Col>
-              </Navbar.Brand>
-            </Link>
+            <Navbar.Brand>
+              <Col>
+                <Link to={'/'}>
+                  <div className='navbar-logo-bg'>
+                    <img src={Logo} alt='logo' className='navbar-logo-img'/>
+                  </div>
+                </Link>
+              </Col>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
             className='ofcan'

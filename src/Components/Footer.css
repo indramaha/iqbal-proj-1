@@ -1,0 +1,139 @@
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-section {
+    display: flex;
+    margin: 100px 0;
+
+}
+
+.footer-logo {
+    padding: 24px;
+}
+
+.footer-logo-bg {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-copyright-p {
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.footer-logo-img {
+    width: 200px;
+    height: 80px;
+}
+
+.footer-kabupaten-title-p {
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.footer-kabupaten {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-kabupaten-text-p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer-kabupaten-bg {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 36px;
+}
+
+.footer-sosmed-title-p {
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.footer-sosmed {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-sosmed-bg {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 24px;
+}
+
+.footer-icon-instagram {
+    background: linear-gradient(135deg,#833ab4,#fd1d1d);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer-icon-facebook {
+    background-color: #3b5998;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer-icon-tiktok {
+    background-color: black;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer-icon-whatsapp {
+    background-color: #075e54;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
