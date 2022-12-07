@@ -15,9 +15,10 @@ function NavigationBar(props) {
           <Container>
             <Navbar.Brand>
               <Col>
-                <Link to={'/'}>
+                <Link to={'/'} className='navbar-logo-link'>
                   <div className='navbar-logo-bg'>
                     <img src={Logo} alt='logo' className='navbar-logo-img'/>
+                    <p className='navbar-logo-p'>Make Your Trip Easier</p>
                   </div>
                 </Link>
               </Col>
@@ -36,10 +37,9 @@ function NavigationBar(props) {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link className='ms-3' href="#action2">Our Services</Nav.Link>
-                  <Nav.Link className='ms-3' href="#action2">Why Us</Nav.Link>
-                  <Nav.Link className='ms-3' href="#action2">Rent Car</Nav.Link>
-                  <Nav.Link className='ms-3' href="#action2">Rent Bike</Nav.Link>
+                  <Nav.Link className='ms-3' href="#ourservices">Our Services</Nav.Link>
+                  <Nav.Link className='ms-3' href="#explore-bali">Wisata</Nav.Link>
+                  <Nav.Link className='ms-3' href="#faq">FAQ</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

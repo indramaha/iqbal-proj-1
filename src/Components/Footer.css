@@ -13,10 +13,17 @@
     padding: 24px;
 }
 
+.footer-logo-p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: black;
+}
+
 .footer-logo-bg {
     display: flex;
-    justify-content: center;
-    height: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-copyright {
@@ -31,7 +38,6 @@
 
 .footer-logo-img {
     width: 200px;
-    height: 80px;
 }
 
 .footer-kabupaten-title-p {
@@ -46,18 +52,29 @@
     align-items: center;
 }
 
+.footer-kabupaten-pertext {
+    margin-top: 1rem;
+    background-color: rgb(161, 161, 161);
+    padding: 5px 10px;
+    width: 100px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
 .footer-kabupaten-text-p {
+    text-align: center;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 20px;
-    color: black;
-    text-decoration: none;
+    color: white;
 }
 
 .footer-kabupaten-bg {
     display: flex;
-    margin-top: 1.5rem;
-    gap: 36px;
+    gap: 20px;
 }
 
 .footer-sosmed-title-p {
@@ -136,4 +153,12 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.a {
+    color: white;
+}
+
+.a:hover {
+    color: white;
 }

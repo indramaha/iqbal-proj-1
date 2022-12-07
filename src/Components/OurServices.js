@@ -6,7 +6,7 @@ import {FiCheck} from "react-icons/fi"
 
 function OurServices(){
     return (
-        <div className="ourservices-section">
+        <div className="ourservices-section" id="ourservices">
             <Container>
                 <Row className="justify-content-center ourservices-row-parent">
                     <Col xl={5} lg={5} md={9} xs={12} className="ourservices-col-image" >

@@ -19,7 +19,9 @@ const Footer = () => {
                             </div>
                             <div className='footer-logo-bg'>
                                 <img src={Logo} alt='logo' className='footer-logo-img'/>
+                                <p className='footer-logo-p'>Make Your Trip Easier</p>
                             </div>
+                                
                         </div>
                     </Col>
                     <Col lg={4}>
@@ -27,19 +29,37 @@ const Footer = () => {
                             <p className='footer-kabupaten-title-p'>Wisata di</p>
                             <div className='footer-kabupaten-bg'>
                                 <div>
-                                    <Link to={'/jembrana'} className='link'><p className='footer-kabupaten-text-p'>Jembrana</p></Link>
-                                    <Link to={'/tabanan'} className='link'><p className='footer-kabupaten-text-p'>Tabanan</p></Link>
-                                    <Link to={'/badung'} className='link'><p className='footer-kabupaten-text-p'>Badung</p></Link>
+                                    <div className='footer-kabupaten-pertext'>
+                                        <Link to={'/jembrana'} className='link'><p className='footer-kabupaten-text-p'>Jembrana</p></Link>
+                                    </div>
+                                    <div className='footer-kabupaten-pertext'>
+                                        <Link to={'/tabanan'} className='link'><p className='footer-kabupaten-text-p'>Tabanan</p></Link>
+                                    </div>
+                                    <div className='footer-kabupaten-pertext'>
+                                        <Link to={'/badung'} className='link'><p className='footer-kabupaten-text-p'>Badung</p></Link>
+                                    </div>
                                 </div>
                                 <div>
-                                    <Link to={'/karangasem'} className='link'><p className='footer-kabupaten-text-p'>Karangasem</p></Link>
-                                    <Link to={'/klungkung'} className='link'><p className='footer-kabupaten-text-p'>Klungkung</p></Link>
-                                    <Link to={'/gianyar'} className='link'><p className='footer-kabupaten-text-p'>Gianyar</p></Link>
+                                    <div className='footer-kabupaten-pertext'>
+                                        <Link to={'/karangasem'} className='link'><p className='footer-kabupaten-text-p'>Karangasem</p></Link>
+                                    </div>
+                                    <div className='footer-kabupaten-pertext'>
+                                        <Link to={'/klungkung'} className='link'><p className='footer-kabupaten-text-p'>Klungkung</p></Link>
+                                    </div>
+                                    <div className='footer-kabupaten-pertext'>
+                                        <Link to={'/gianyar'} className='link'><p className='footer-kabupaten-text-p'>Gianyar</p></Link>
+                                    </div>
                                 </div>
                                 <div>
-                                    <Link to={'/singaraja'} className='link'><p className='footer-kabupaten-text-p'>Singaraja</p></Link>
-                                    <Link to={'/bangli'} className='link'><p className='footer-kabupaten-text-p'>Bangli</p></Link>
-                                    <Link to={'/denpasar'} className='link'><p className='footer-kabupaten-text-p'>Denpasar</p></Link>
+                                    <div className='footer-kabupaten-pertext'>
+                                        <Link to={'/singaraja'} className='link'><p className='footer-kabupaten-text-p'>Singaraja</p></Link>
+                                    </div>
+                                    <div className='footer-kabupaten-pertext'>
+                                        <Link to={'/bangli'} className='link'><p className='footer-kabupaten-text-p'>Bangli</p></Link>
+                                    </div>
+                                    <div className='footer-kabupaten-pertext'>
+                                        <Link to={'/denpasar'} className='link'><p className='footer-kabupaten-text-p'>Denpasar</p></Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>

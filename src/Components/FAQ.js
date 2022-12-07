@@ -5,7 +5,7 @@ import './FAQ.css'
 
 const FAQ = () => {
     return ( 
-        <div className='faq-section'>
+        <div className='faq-section' id='faq'>
             <Container>
                 <Row className='justify-content-between'>
                     <Col lg={3} >
@@ -14,13 +14,13 @@ const FAQ = () => {
                     </Col>
                     <Col lg={6}>
                         <Accordion>
-                            <Accordion.Item eventKey="0">
+                            <Accordion.Item eventKey="0" className='faq-accord-item'>
                                 <Accordion.Header>Apa itu guide me ?</Accordion.Header>
                                 <Accordion.Body>
                                 Guide me merupakan web yang dapat membantu wisatawan dalam berlibur di Bali. Guide Me berisi semua informasi tempat wisata yang ada di Bali lengkap dengan harga tiketnya, menyediakan jasa pemandu wisata, dan menyediakan berbagai pilihan penyewaan mobil / motor di Bali.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="1">
+                            <Accordion.Item eventKey="1" className='faq-accord-item'>
                                 <Accordion.Header>Kenapa memilih Guide me?</Accordion.Header>
                                 <Accordion.Body>
                                     Keuntungan menggunakan Guide Me:
@@ -32,16 +32,15 @@ const FAQ = () => {
                                     </ul>
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="2">
-                                <Accordion.Header>Accordion Item #2</Accordion.Header>
+                            <Accordion.Item eventKey="2" className='faq-accord-item'>
+                                <Accordion.Header>Cara memesan?</Accordion.Header>
                                 <Accordion.Body>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa qui officia deserunt mollit anim id est laborum.
+                                    <ul>
+                                        <li>Pilih daerah yang ingin di tuju</li>
+                                        <li>Click tombol yang ada di halaman tersebut, jika ingin menyewa motor, click "sewa motor"</li>
+                                        <li>Lengkapi data diri di form yang sudah tersedia</li>
+                                        <li>dan confirmasi ke Whatsapp melalui tombol yang sudah tersedia</li>
+                                    </ul>
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>

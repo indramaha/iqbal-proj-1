@@ -8,6 +8,7 @@ import HomePage from './Pages/HomePage';
 import Jembrana from './Pages/Jembrana';
 import Karangasem from './Pages/Karangasem';
 import Klungkung from './Pages/Klungkung';
+import RegistrationPage from './Pages/RegistrationPage';
 import Singaraja from './Pages/Singaraja';
 import Tabanan from './Pages/Tabanan';
 
@@ -24,6 +25,7 @@ const App = () => {
       <Route path='/bangli' element={<Bangli />}/>
       <Route path='/gianyar' element={<Gianyar />}/>
       <Route path='/denpasar' element={<Denpasar />}/>
+      <Route path='/registration' element={<RegistrationPage />}/>
     </Routes>
   );
 }

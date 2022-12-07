@@ -33,7 +33,7 @@ const WisataDescBangli = (props) => {
                                                         <p>Anak-anak: Rp.{dtiket.turisAnak}</p>
                                                     </div>
                                                     <div className='wisatadesc-maps-bg'>
-                                                        <SiGooglemaps className='wisatadesc-maps'/>
+                                                        <a href={dtiket.maps}><SiGooglemaps className='wisatadesc-maps'/></a>
                                                     </div>
                                                 </div>
                                             )

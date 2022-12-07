@@ -4,7 +4,7 @@ import "./Kabupaten.css"
 
 function Kabupaten(){
     return(
-        <div className="kabupaten-section">
+        <div className="kabupaten-section" id="explore-bali">
             <div className="kabupaten-section-title">
                 <h1 className="kabupaten-section-title-h1">Explore Bali Lebih Jauh</h1>
             </div>

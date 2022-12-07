@@ -1,9 +1,13 @@
 import './WisataDesc.css'
 import {SiGooglemaps} from 'react-icons/si'
+import { Link } from 'react-router-dom';
 
 const WisataDescBadung = (props) => {
     return ( 
         <div className='wisatadesc-section'>
+            <div>
+                <Link to={'/registration'}><button>Isi Form</button></Link>
+            </div>
             {
                 props.wisataBadung.map((item, i) => {
                     return(
@@ -34,7 +38,7 @@ const WisataDescBadung = (props) => {
                                                         <p>Anak-anak: Rp.{dtiket.turisAnak}</p>
                                                     </div>
                                                     <div className='wisatadesc-maps-bg'>
-                                                        <SiGooglemaps className='wisatadesc-maps'/>
+                                                        <a href={dtiket.maps}><SiGooglemaps className='wisatadesc-maps'/></a>
                                                     </div>
                                                 </div>
                                             )
