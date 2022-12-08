@@ -1,8 +1,12 @@
 import {SiGooglemaps} from 'react-icons/si'
+import { Link } from 'react-router-dom';
 
 const WisataDescJembrana = (props) => {
     return ( 
         <div className='wisatadesc-section'>
+            <div>
+                <Link to={'/registration'}><button className='wisatadesc-button-toform'>Isi Form</button></Link>
+            </div>
             {
                 props.wisataJembrana.map((item, i) => {
                     return(

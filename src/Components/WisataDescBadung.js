@@ -6,7 +6,7 @@ const WisataDescBadung = (props) => {
     return ( 
         <div className='wisatadesc-section'>
             <div>
-                <Link to={'/registration'}><button>Isi Form</button></Link>
+                <Link to={'/registration'}><button className='wisatadesc-button-toform'>Isi Form</button></Link>
             </div>
             {
                 props.wisataBadung.map((item, i) => {
